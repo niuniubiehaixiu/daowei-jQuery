@@ -1,0 +1,170 @@
+.baozhang {
+    text-align: center;
+    width: 100%;
+    padding-top: 60px;
+    background: #fff;
+    clear: both;
+}
+.baozhang h2 {
+    font-size: 30px;
+    font-family: "微软雅黑";
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.baozhang h2 i {
+    color: #fb474f;
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.baozhang p {
+    font-size: 22px;
+    color: #3d3838;
+    margin: 0;
+    display: block;
+}
+.servi {
+    width: 100%;
+    padding-top: 20px;
+    background: #fff;
+    height: 66px;
+    font-family: "微软雅黑";
+}
+.servi ul {
+    width: 420px;
+    margin: 0 auto;
+    list-style: none;
+    font-style: normal;
+    padding: 0;
+}
+.servi ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: #1d1515;
+    font-size: 18px;
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.servi ul li img {
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 0;
+}
+.footer {
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+    height: 170px;
+    background: #fff;
+    margin: 0;
+    display: block;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.footer dl {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer dl dt {
+    float: left;
+    font-family: " 微软雅黑";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.42857143;
+}
+.footer dl dd {
+    margin-left: 30px;
+    width: 1090px;
+    line-height: 30px;
+    float: left;
+    display: block;
+}
+.footer dl dd a {
+    font-size: 16px;
+    color: #898989;
+    display: inline-block;
+    width: 8%;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    transition: color .5s;
+    background-color: transparent;
+}
+.beian1 {
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.beian1 p {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    color: #898989;
+}
+.beian {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-top: 50px;
+    clear: both;
+}
+.beian #hp {
+    position: relative;
+    bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    width: 1200px;
+    margin: 0 auto;
+    background: none;
+    color: #1d1515;
+    font-size: 18px;
+}
+.beian ul {
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+}
+.beian ul li {
+    float: left;
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    background: #fff;
+    margin-left: 1%;
+    line-height: 55px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.beian ul li img {
+    vertical-align: middle;
+    width: 100%;
+}
+.beian2 {
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+.beian2 p {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    color: #898989;
+}

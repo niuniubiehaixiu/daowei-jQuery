@@ -1,0 +1,246 @@
+#continner
+  width 100%
+  height 100%
+  position relative
+  //头部
+  .header
+    width 100%
+    height 130px
+    background-color #ffffff
+    .header-nav
+      width 100%
+      height 40px
+      background #f1f1f1
+      .nav-wraper
+        display flex
+        justify-content space-between
+        width 1200px
+        height 40px
+        margin 0 auto
+        .city
+          height 40px
+          line-height 40px
+          a span
+            font-size 18px
+            font-weight bold
+        .nav-content
+          display flex
+          height 40px
+          line-height 40px
+          .text a
+            font-size 18px
+            font-weight bold
+            text-align center
+            color black
+            margin 0 15px
+            &.on
+              color #e94840
+          .text
+            &:hover
+              background #ffffff
+              a
+               color #e94840
+    .header-search
+      width 1200px
+      height 90px
+      margin 0 auto
+      display flex
+      justify-content space-between
+      align-items center
+      .search
+        width 600px
+        height 30px
+        line-height 30px
+        margin-left -50px
+        border 2px solid #e94840
+        border-radius 10px
+        .btn
+          width 120px
+          height 29.5px
+          line-height 29.5px
+          border-radius 0 5px 5px 0
+          text-align center
+          font-weight 10px
+          color #FFF
+          float right
+          background-color #e94840
+        .iconfont
+          margin 0 10px
+        .search-input
+          width 70%
+          height 28px
+          outline none
+      .img img
+        width 90px
+        height 90px
+
+
+
+  .actives
+    position fixed
+    top 0
+    left 0
+    z-index 1000
+    opacity: 0.9;
+    animation: show 1s ease
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .12)
+    @keyframes show
+      from
+        transform: translateY(-100%) rotateX(90deg)
+      to
+        transform: translateY(0) rotateX(0)
+
+  //轮播图
+  .swiper
+    width 100%
+    height 300px
+    position relative
+    img
+      width 100%
+      height 100%
+      position absolute
+      left 0
+      top 0
+      display none
+
+
+  .swiper-btn
+    width 50px
+    height 50px
+    margin -30px auto 0 auto
+    display flex
+    z-index 100
+    .btn
+      width 10px
+      height 10px
+      margin 0 5px
+      border-radius 100%
+      background-color white
+      z-index 100
+    .active
+      background #333
+  .banner-nav
+    width 180px
+    height 300px
+    position absolute
+    left 360px
+    top 130px
+    z-index 99
+    background-color #757881
+    .nav-w
+      display flex
+      flex-direction column
+      align-items center
+      .nav-name
+        width 180px
+        height 30px
+        display flex
+        justify-content space-around
+        align-items center
+        &:hover
+          background #7e8c8d
+          .top
+            display block
+      .nav-name a
+        height 30px
+        line-height 30px
+        color #fff
+        text-align center
+        font-size 16px
+        font-weight bold
+        letter-spacing 2px
+      .iconfont
+        color white
+        margin-left 10px
+      .top
+        display none
+        width 150px
+        height 300px
+        background-color #FFFFFF
+        opacity .9
+        position absolute
+        color black
+        left 180px
+        top 0px
+        li a
+          margin-left 30px
+          height 30px
+          line-height 30px
+          color black
+          text-align center
+          font-size 16px
+          font-weight bold
+          letter-spacing 2p
+  //内容
+  .content_wrap
+    width 100%
+    height 100%
+    .title_wrap
+      width 1200px
+      height 71px
+      margin 0 auto
+      .title
+        height 31px
+        width 1200px
+        line-height 31px
+        font-size 30px
+        font-weight bold
+        text-align center
+
+      .list
+        display flex
+        justify-content center
+        align-items center
+        margin-top 15px
+        li a
+          font-size 25px
+          margin 0 5px
+    .banner
+      width 1200px
+      height 375px
+      margin 50px auto
+      display flex
+      .banner-item
+        width 230px
+        height 345px
+        box-sizing border-box
+        padding 10px
+        margin 0 5px
+        border 1px solid #eee
+        margin-top 15px
+        .img
+          width 210px
+          height 210px
+          img
+            width 210px
+            height 210px
+        .banner-title
+          margin-top 5px
+          font-size 18px
+          font-weight bold
+        .banner-desc
+          margin-top 10px
+          line-height 20px
+          font-size 12px
+        .banner-top
+          margin-top 5px
+          width 208px
+          color #e94840
+          display flex
+          align-items center
+          .money
+            font-size 25px
+            color #e94840
+          .btn
+            width 76px
+            height 24px
+            font-size 10px
+            margin-left 45px
+            border-radius 5px
+            background #e94840
+            color #ffffff
+            line-height 24px
+            text-align center
+      .banner-item:hover
+        box-shadow 5px 5px 10px #ccc
+
